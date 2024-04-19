@@ -16,7 +16,7 @@ The data and code has been uploaded to the repo. The basic structure of the firs
 - ip_address : user numeric ip address
 - class : this is what we are trying to predict: whether the activity was fraudulent (1) or not (0).
 
-The second time is as follows:
+The second table is as follows:
 
 - lower_bound_ip_address : the lower bound of the numeric ip address for that country
 
