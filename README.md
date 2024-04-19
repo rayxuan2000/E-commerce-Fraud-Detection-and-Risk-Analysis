@@ -23,7 +23,8 @@ The second time is as follows:
 - upper_bound_ip_address : the upper bound of the numeric ip address for that country
 
 - country : the corresponding country. If a user has an ip address whose value is within the upper and lower bound, then she is based in this country.
-- 
+
+
 ## Summary
 - Used E-commerce company transaction data sets (data size= 138376), built machine learning solution and gained insights
 to mimimize enterprise fraud losses via Python.
