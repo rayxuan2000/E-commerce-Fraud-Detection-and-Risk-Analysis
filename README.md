@@ -26,9 +26,9 @@ The second table is as follows:
 
 
 ## Summary
-- Used E-commerce company transaction data sets (data size= 138376), built machine learning solution and gained insights
-to mimimize enterprise fraud losses via Python.
-- Identified potential fraud country information based on ip address and reduce the look-up time by 22%.
-- Utilized feature engineering, built logistic regression and random forest model with and without SMOTE (Synthetic
-Minority Oversampling Technique) method on minority set, performed parameter tuning, increased recall score by
+- Built machine learning models on a E-commerce company's 138K+ transaction data sets to predict fraudulent activities via **Python**.
+- Identified potential fraud country information based on ip address and **reduce the look-up time** by 22% using binary search.
+- Utilized feature engineering, built **logistic regression** and **random forest** model with and without **SMOTE (Synthetic
+Minority Oversampling Technique)** method on minority set, performed parameter tuning, **increased recall score** by
 20% , and analyzed fraud characteristics by presenting feature importance.
+- Designed a real-time alert system to prevent fraudulent activities.
