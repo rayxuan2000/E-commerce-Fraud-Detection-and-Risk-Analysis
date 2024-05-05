@@ -35,7 +35,7 @@ The second table is as follows:
 | Oversampling  |   0.4452296819787986     |  0.5123674911660777     |   0.44876325088339225     |
 | Oversampling with tuning  |   /     |   0.5123674911660777     |   0.5159010600706714     |
 | Downsampling  |   /     |  0.5335689045936396    |   0.5300353356890459     |
-| Downsampling with tuning  |   /     |   0.5724381625441696     |   recall = 0.5300353356890459     |
+| Downsampling with tuning  |   /     |   0.5724381625441696     |   0.5300353356890459     |
 | SMOTE  |   /     |   0.49823321554770317     |   0.5795053003533569    |
 | SMOTE fine-tune  |   /    |   /     |   0.7597173144876325     |
 
