@@ -43,4 +43,4 @@ The second table is as follows:
 - Analyzed fraud characteristics and designed a hierarchical alert system on a E-commerce company's 138K+ transaction data set to prevent fraudulent activities via **Python**.
 - Identified potential fraud country information based on ip address and **reduce the look-up time** by 22%.
 - Prepossessed data and utilized **feature engineering** containing customized encoding and feature reduction to extract useful information. 
-- Built **logistic regression**, **random forest** and **XGBoost** model, compared various sampling methods to balance data such as oversampling in minor class, downsampling in major class and **SMOTE (Synthetic Minority Over-sampling Technique)**, fine-tuned parameter and **increased recall score** by 20%.
+- Built **logistic regression**, **random forest** and **XGBoost** model, compared various sampling methods to balance data such as oversampling in minor class, downsampling in major class and **SMOTE (Synthetic Minority Over-sampling Technique)**, fine-tuned parameter and **increased recall score** by 75%.
