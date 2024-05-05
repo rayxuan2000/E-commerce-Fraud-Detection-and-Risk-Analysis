@@ -27,9 +27,7 @@ The second table is as follows:
 **There are several models that I saved during training. They are uploaded as well in .zip file.**
 
 ## Summary
-- Built machine learning models on a E-commerce company's 138K+ transaction data sets to predict fraudulent activities via **Python**.
-- Identified potential fraud country information based on ip address and **reduce the look-up time** by 22% using binary search.
-- Utilized feature engineering, built **logistic regression** and **random forest** model with and without **SMOTE (Synthetic
-Minority Oversampling Technique)** method on minority set, performed parameter tuning, **increased recall score** by
-20% , and analyzed fraud characteristics by presenting feature importance.
-- Designed a real-time alert system to prevent fraudulent activities.
+- Analyzed fraud characteristics and designed a hierarchical alert system on a E-commerce company's 138K+ transaction data set to prevent fraudulent activities via **Python**.
+- Identified potential fraud country information based on ip address and **reduce the look-up time** by 22%.
+- Prepossessed data and utilized **feature engineering** containing customized encoding and feature reduction to extract useful information. 
+- Built **logistic regression**, **random forest** and **XGBoost** model, compared various sampling methods to balance data such as oversampling in minor class, downsampling in major class and **SMOTE (Synthetic Minority Over-sampling Technique)**, fine-tuned parameter and **increased recall score** by 20%.
