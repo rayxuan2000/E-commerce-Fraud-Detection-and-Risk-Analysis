@@ -24,6 +24,7 @@ The second table is as follows:
 
 - country : the corresponding country. If a user has an ip address whose value is within the upper and lower bound, then she is based in this country.
 
+**There are several models that I saved during training. They are uploaded as well in .zip file.**
 
 ## Summary
 - Built machine learning models on a E-commerce company's 138K+ transaction data sets to predict fraudulent activities via **Python**.
