@@ -162,13 +162,16 @@ f1_score = 0.03614723385497024
 
 recall = 0.7597173144876325
 
-|          | Column 1 | Column 2 | Column 3 |
+|          | Logistic regrssion | Random forest | XGBoost |
 |----------|----------|----------|----------|
-| Title 1  |   A1     |   B1     |   C1     |
-| Title 2  |   A2     |   B2     |   C2     |
-| Title 3  |   A3     |   B3     |   C3     |
-
-
+| No change  |   A1     |   B1     |   C1     |
+| cross validation with grid search  |   A2     |   B2     |   C2     |
+| Oversampling  |   A3     |   B3     |   C3     |
+| Oversampling with tuning  |   A3     |   B3     |   C3     |
+| Downsampling  |   A3     |   B3     |   C3     |
+| Downsampling with tuning  |   A3     |   B3     |   C3     |
+| SMOTE  |   A3     |   B3     |   C3     |
+| SMOTE fine-tune  |   /    |   /     |   0.7597173144876325     |
 
 ## Summary
 - Analyzed fraud characteristics and designed a hierarchical alert system on a E-commerce company's 138K+ transaction data set to prevent fraudulent activities via **Python**.
