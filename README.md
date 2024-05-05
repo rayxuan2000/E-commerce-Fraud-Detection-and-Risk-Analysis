@@ -26,6 +26,142 @@ The second table is as follows:
 
 **There are several models that I saved during training. They are uploaded as well in .zip file.**
 
+## Some numeric values obtained from this project:
+#### Logistic regression
+(1) No change
+
+precision = 0.0
+
+recall = 0.0
+
+f1_score = 0.0
+
+(2) Cross validation with grid search
+
+precision = 0.8571428571428571
+
+recall = 0.02120141342756184
+
+f1_score = 0.041379310344827586
+
+(3) Oversampling
+
+precision = 0.3230769230769231
+
+recall = 0.4452296819787986
+
+f1_score = 0.37444279346210996
+
+#### Random forest
+(1) No change
+
+precision = 1.0
+
+recall = 0.5123674911660777
+
+f1_score = 0.6775700934579438
+
+(2) Cross validation with grid search
+
+precision = 1.0
+
+recall = 0.5123674911660777
+
+f1_score = 0.6775700934579438
+
+(3) Oversampling (without or with tuning)
+
+precision = 1.0
+
+recall = 0.5123674911660777
+
+f1_score = 0.6775700934579438
+
+(4) Downsampling
+
+precision = 0.6651982378854625
+
+recall = 0.5335689045936396
+
+f1_score = 0.592156862745098
+
+(5) Downsampling with tuning
+
+precision = 0.1610337972166998
+
+recall = 0.5724381625441696
+
+f1_score = 0.25135764158262214
+
+(6) SMOTE
+
+precision = 0.9527027027027027
+
+recall = 0.49823321554770317
+
+f1_score = 0.654292343387471
+
+#### XGBoost
+(1) No change
+
+precision = 0.991869918699187
+
+recall = 0.43109540636042404
+
+f1_score = 0.6009852216748769
+
+(2) Cross validation with grid search
+
+precision = 0.9703703703703703
+
+recall = 0.4628975265017668
+
+f1_score = 0.6267942583732058
+
+(3) Oversampling
+
+precision = 0.8355263157894737
+
+recall = 0.44876325088339225
+
+f1_score = 0.5839080459770115
+
+(4) Oversampling with tuning
+
+precision = 0.8848484848484849
+
+recall = 0.5159010600706714
+
+f1_score = 0.6517857142857143
+
+(5) Downsampling 
+
+precision = 0.35294117647058826
+
+recall = 0.5300353356890459
+
+f1_score = 0.423728813559322
+
+(6) Downsampling with tuning
+
+precision = 0.35294117647058826
+
+recall = 0.5300353356890459
+
+f1_score = 0.423728813559322
+
+(7) SMOTE
+
+precision = 0.018655443066772835
+
+recall = 0.5795053003533569
+
+f1_score = 0.03614723385497024
+
+(8) Fine tune on SMOTE
+
+recall = 0.7597173144876325
+
 ## Summary
 - Analyzed fraud characteristics and designed a hierarchical alert system on a E-commerce company's 138K+ transaction data set to prevent fraudulent activities via **Python**.
 - Identified potential fraud country information based on ip address and **reduce the look-up time** by 22%.
