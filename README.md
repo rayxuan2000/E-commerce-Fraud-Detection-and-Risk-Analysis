@@ -162,6 +162,13 @@ f1_score = 0.03614723385497024
 
 recall = 0.7597173144876325
 
+| Column 1 | Column 2 | Column 3 |
+|----------|----------|----------|
+|   A1     |   B1     |   C1     |
+|   A2     |   B2     |   C2     |
+|   A3     |   B3     |   C3     |
+
+
 ## Summary
 - Analyzed fraud characteristics and designed a hierarchical alert system on a E-commerce company's 138K+ transaction data set to prevent fraudulent activities via **Python**.
 - Identified potential fraud country information based on ip address and **reduce the look-up time** by 22%.
